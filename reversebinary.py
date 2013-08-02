@@ -43,7 +43,7 @@ def main():
     binary_str = int_to_binary(n)
     reversed_binary_str = reverse_binary(binary_str)
     result = binary_to_int(reversed_binary_str)
-    #result = binary_to_int(reverse_binary(int_to_binary(n)))
+
     print result
 
 if __name__ == '__main__':
