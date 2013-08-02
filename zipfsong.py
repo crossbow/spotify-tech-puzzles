@@ -43,6 +43,9 @@ in decreasing order of quality.
 If two songs have the same quality, give precedence to
 the one appearing first on the album (presumably there was
 a reason for the producers to put that song before the other).
+
+NOTE: the code is still using play_count_song_1 that turned
+out to be not useful to solve the problem.
 """
 
 from heapq import heappush, heappop
